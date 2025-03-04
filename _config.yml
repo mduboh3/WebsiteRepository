@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #0056b3;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        section {
+            background: #ffffff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px 0px #ccc;
+        }
+        h1, h2 {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
+    <div class="container">
+        <section id="about-me">
+            <h1>Hello! Welcome to my Website!</h1>
+            <p>
+                I am a student pursuing a degree in <strong>Management Information Systems</strong> and <strong>Business Analytics</strong>, 
+                with a minor in <strong>Cybersecurity</strong>. My passion lies in the fields of <strong>Cybersecurity and IT</strong>, 
+                where I aim to apply my technical and analytical skills to real-world challenges.
+            </p>
+            <p>
+                I am currently seeking <strong>Summer 2025 internships</strong> in <strong>Cybersecurity, IT, or related fields</strong>. 
+                Please browse my resume, work experience, and relevant coursework and if you're looking for a dedicated intern, feel free to reach out!
+            </p>
+        </section>
+
+        <section class="education-container">
+            <div class="education-title">College Education</div>
+            <div class="edu-entry">
+                <div class="edu-school">Iowa State University</div>
+                <div class="edu-location">Ames, IA</div>
+                <div class="edu-years">Pursuing B.S. in Management Information Systems & Business Analytics, Minor in Cybersecurity</div>
+                <div class="edu-years">The following courses will either be described or have the final project description that I completed at the end of the course.</div>
+            </div>
+            <div class="edu-entry">
+                <div class="edu-school">Computer Science & Programming</div>
+                <div class="edu-details">
+                    <ul class="edu-list">
+                        <li><strong>Com S 207 (Fundamentals of Computer Programming):</strong> JavaScript basics—variables, loops, functions, objects.</li>
+                        <li><strong>Com S 252 (Linux Operating System Essentials):</strong> Linux shell commands, piping, regex, awk, sed, firewall settings, internet protocols.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="work-container">
+            <div class="work-title">Work Experience</div>
+            <div class="work-section">Industry-Related Experience</div>
+            <div class="work-entry">
+                <div class="work-company">Edge Pursuit</div>
+                <div class="work-location">San Francisco, CA</div>
+                <div class="work-years">Accounting Intern (Feb 2023 – Sept 2023)</div>
+                <div class="work-details">
+                    <ul class="work-list">
+                        <li>Managed financial records for multiple companies using Bill.com and QuickBooks, ensuring accurate reporting and compliance.</li>
+                        <li>Compiled and analyzed Statements of Cash Flows, Balance Sheets, and Income Statements, helping executives make informed financial decisions.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work-entry">
+                <div class="work-company">Jemstone Technologies</div>
+                <div class="work-location">Charlottesville, VA</div>
+                <div class="work-years">Information Analyst Intern (June 2024 – Aug 2024, Dec 2024 – Jan 2025)</div>
+                <div class="work-details">
+                    <ul class="work-list">
+                        <li>Configured, installed, and optimized client PCs, servers, and laptops, ensuring smooth performance for businesses and startups.</li>
+                        <li>Worked with virtualized environments and remote IT support to troubleshoot and resolve client issues efficiently.</li>
+                        <li>Led small business clients in implementing cybersecurity best practices, protecting their networks and data.</li>
+                        <li>Developed proficiency in network administration, IT support, and system troubleshooting through hands-on experience.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work-section">Regular Work Experience</div>
+            <div class="work-entry">
+                <div class="work-company">Trash Butler</div>
+                <div class="work-location">Ashburn, VA</div>
+                <div class="work-years">Trash Collector (Dec 2021 – Present)</div>
+                <div class="work-details">
+                    <ul class="work-list">
+                        <li>Responsible for timely and efficient collection of residential trash, ensuring cleanliness and adherence to community guidelines.</li>
+                        <li>Maintained a strong work ethic, balancing physical labor with time management to complete routes effectively.</li>
+                        <li>Developed an understanding of logistics, efficiency, and service-oriented roles, applicable to professional environments.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work-entry">
+                <div class="work-company">United States Soccer Referee</div>
+                <div class="work-location">Northern Virginia</div>
+                <div class="work-years">Referee (2014 – 2017)</div>
+                <div class="work-details">
+                    <ul class="work-list">
+                        <li>Officiated youth soccer matches (U18 and under), ensuring adherence to FIFA and local league rules.</li>
+                        <li>Made split-second decisions in high-pressure situations, reinforcing critical thinking and conflict resolution skills.</li>
+                        <li>Developed leadership and communication abilities by managing players, coaches, and parents in competitive settings.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
